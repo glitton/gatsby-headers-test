@@ -38,7 +38,6 @@ module.exports = {
           "/*": [
             "Access-Control-Allow-Origin: *",
             "X-Content-Type-Options: nosniff",
-            "x-frame-options: SAMEORIGIN",
           ],
         },
       },
