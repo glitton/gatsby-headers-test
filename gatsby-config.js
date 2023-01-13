@@ -34,12 +34,12 @@ module.exports = {
       resolve: `gatsby-plugin-gatsby-cloud`,
       options: {
         mergeSecurityHeaders: false,
-        headers: {
-          "/*": [
-            "Access-Control-Allow-Origin: *",
-            "X-Content-Type-Options: nosniff",
-          ],
-        },
+        // headers: {
+        //   "/*": [
+        //     "Access-Control-Allow-Origin: *",
+        //     "X-Content-Type-Options: nosniff",
+        //   ],
+        // },
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
